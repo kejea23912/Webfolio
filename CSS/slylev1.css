@@ -1,45 +1,132 @@
-html, body{
+
+
+* {
+  font-family: "Science Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 454;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" -3,
+    "wdth" 85.1,
+    "CTRS" 0;
+}
+
+
+/* Reset de base */
+* {
     margin: 0;
     padding: 0;
-    height: 100vh ;
+    box-sizing: border-box;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+}
 
-
-header, #Moi, #Projet, #Cv, #Images, #Contacte {
+/* Structure générale des sections */
+section {
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
     display: grid;
-    grid-template-rows: 1fr, 4fr;
-    gap: 0;
-    grid-template-areas: 
+    grid-template-rows: 20% 80%;
+    grid-template-areas:
         "headerall"
         "content";
+    overflow: hidden;
+}
+
+/* Bordures colorées par section */
+
+
+#Moi {
+    border-left: 8px solid #53da6a;
+}
+
+#Projet {
+    border-left: 8px solid #93a726;
+}
+
+#CV {
+    border-left: 8px solid #b6238a;
+}
+
+#Images {
+    border-left: 8px solid #250eaa;
+}
+
+#Contact {
+    border-left: 8px solid #0e925f;
 }
 
 
+/* En-tête des sections intérieures */
+section .headerall2 {
+    background-color: #da53ad;
+}
+
+/* Logo dans le header */
+.headerall img {
+    height: 80px;
+    width: auto;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navbtn a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.navbtn a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Titre des sections */
+.headerall2 h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Bouton retour */
+.returnbtn {
+    background: white;
+    color: #667eea;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.returnbtn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Zone de contenu (80% de la hauteur) */
 .content {
     grid-area: content;
-    background-color: #18c753;
+    padding: 3rem;
+    overflow-y: auto;
 }
 
-.headerall {
-    grid-area: headerall;
-    background-color: #6ca5df;
+/* Contenu des sections intérieures */
+section .content {
+    background-color: #687b6f;
 }
-
-header {border-left: 8px solid #da53ad;}
-
-#Moi {border-left: 8px solid #53da6a;}
-
-#Projet {border-left: 8px solid #93a726;}
-
-#CV {border-left: 8px solid #b6238a;}
-
-#Images {border-left: 8px solid #250eaa;}
-
-#Contacte {border-left: 8px solid #0e925f;}
-
-
-
