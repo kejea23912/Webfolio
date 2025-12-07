@@ -3,7 +3,9 @@
 Bienvenue sur mon portfolio personnel.  
 Ce site présente mon parcours, mes projets académiques et mes compétences en développement web.
 
-![Aperçu du site]
+👨‍🎓 À propos
+
+Portfolio réalisé dans le cadre de mon Master à l’Université de Tours, mettant en valeur mes projets et mon parcours en développement web.
 <img width="2877" height="1467" alt="Screenshot 2025-12-07 213555" src="https://github.com/user-attachments/assets/61d87724-65ce-4c3c-aba2-23ed08dd6b8a" />
 
 
@@ -16,15 +18,13 @@ Ce site présente mon parcours, mes projets académiques et mes compétences en 
 
 ## 🛠 Technologies
 
-- HTML5  
-- CSS3 (Flexbox, Grid, Media Queries)  
+- HTML
+- CSS (Flexbox, Grid, Media Queries)  
 - Font Awesome  
 - Git & GitHub
 - google font
 
-👨‍🎓 À propos
 
-Portfolio réalisé dans le cadre de mon Master à l’Université de Tours, mettant en valeur mes projets et mon parcours en développement web.
 
 📞 Contact
 
