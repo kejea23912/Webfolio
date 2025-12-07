@@ -63,14 +63,6 @@ html, body {
     overflow: hidden;
 }
 
-/* Bordures colorées par section */
-
-
-
-#Images {
-    border-left: 8px solid #250eaa;
-}
-
 #Contact {
     border-left: 8px solid #0e925f;
 }
