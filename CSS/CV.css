@@ -1,0 +1,82 @@
+/* Section CV */
+#CV {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+#CV .headerall2 {
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#CV .headerall2 h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+
+#CV .content1 {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  overflow: auto; 
+}
+
+
+#CV .content1 img {
+  max-width: 90%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: zoom-in;
+}
+
+#CV .content1 img:hover {
+  transform: scale(1.8);
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.3);
+}
+
+
+
+@media (max-width: 768px) {
+  #CV .headerall2 {
+    height: auto;
+    min-height: 15vh;
+    padding: 1.5rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #CV .headerall2 h2 {
+    font-size: 1.8rem;
+  }
+
+  #CV .content1 {
+    height: auto;
+    min-height: 80vh;
+    padding: 1rem;
+  }
+
+  #CV .content1 img {
+    max-width: 95%;
+  }
+
+  #CV .content1 img:hover {
+    transform: scale(1.05);
+  }
+}
