@@ -2,13 +2,7 @@
 
 * {
   font-family: "Science Gothic", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 454;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" -3,
-    "wdth" 85.1,
-    "CTRS" 0;
+  
 }
 
 
@@ -120,13 +114,13 @@ nav ul {
 }
 
 /* Zone de contenu (80% de la hauteur) */
-.content {
+section, .content {
     grid-area: content;
-    padding: 3rem;
+    padding: 0rem;
     overflow-y: auto;
 }
 
 /* Contenu des sections intérieures */
-section .content {
+section, content {
     background-color: #687b6f;
 }
