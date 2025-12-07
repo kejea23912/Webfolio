@@ -20,5 +20,18 @@ Ce site présente mon parcours, mes projets académiques et mes compétences en 
 - CSS3 (Flexbox, Grid, Media Queries)  
 - Font Awesome  
 - Git & GitHub
-- google font 
+- google font
+
+👨‍🎓 À propos
+
+Portfolio réalisé dans le cadre de mon Master à l’Université de Tours, mettant en valeur mes projets et mon parcours en développement web.
+
+📞 Contact
+
+📧 Email : kenny.jean-elie@etu.univ-tours.fr
+
+📍 Localisation : Châtellerault, France
+
+💼 LinkedIn : https://www.linkedin.com/in/kenny-jean-elie-b84175304/
+
 
