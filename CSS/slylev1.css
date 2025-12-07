@@ -1,11 +1,19 @@
+html, body {
+  overflow: hidden;
+}
 
+.page {
+  display: none;
+  height: 100vh;
+}
 
+.page:target {
+  display: block;
+}
 * {
   font-family: "Science Gothic", sans-serif;
   
 }
-
-
 /* Reset de base */
 * {
     margin: 0;
@@ -13,15 +21,38 @@
     box-sizing: border-box;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    overflow-x: hidden;
+
+/* Titre des sections */
+.headerall2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
 }
 
+
+/* Bouton retour */
+.returnbtn {
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.returnbtn:hover {
+    transform: scale(1.15);
+
+}
+
+
 /* Structure générale des sections */
-section {
+.section {
     height: 100vh;
     width: 100vw;
     display: grid;
@@ -33,15 +64,6 @@ section {
 }
 
 /* Bordures colorées par section */
-
-
-#Moi {
-    border-left: 8px solid #53da6a;
-}
-
-#Projet {
-    border-left: 8px solid #93a726;
-}
 
 #CV {
     border-left: 8px solid #b6238a;
@@ -56,71 +78,10 @@ section {
 }
 
 
-/* En-tête des sections intérieures */
-section .headerall2 {
-    background-color: #da53ad;
-}
-
-/* Logo dans le header */
-.headerall img {
-    height: 80px;
-    width: auto;
-}
-
-/* Navigation */
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-}
-
-.navbtn a {
-    color: #000000;
-    text-decoration: none;
-    font-size: 1.1rem;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-}
-
-.navbtn a:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transform: translateY(-2px);
-}
-
-/* Titre des sections */
-.headerall2 h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-/* Bouton retour */
-.returnbtn {
-    background: white;
-    color: #667eea;
-    border: none;
-    padding: 0.8rem 2rem;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.returnbtn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-/* Zone de contenu (80% de la hauteur) */
-section, .content {
-    grid-area: content;
-    padding: 0rem;
-    overflow-y: auto;
-}
 
 /* Contenu des sections intérieures */
-section, content {
-    background-color: #687b6f;
+.section, .content1 {
+    background-color: #eeeded;
 }
+
+

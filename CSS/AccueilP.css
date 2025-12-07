@@ -8,6 +8,32 @@ header {
     overflow: hidden;
 }
 
+.headerall img {
+    height: 80px;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navbtn a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.navbtn a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
 /* En-tête de section (20% de la hauteur) */
 .headerall {
     grid-area: headerall;
@@ -19,6 +45,7 @@ header {
     font-weight: 700;
     font-stretch: 90%;
     font-variation-settings: 'CASL' 1, 'YTAS' 650, 'YTDE' -138;
+    background-attachment: fixed;
 }
 
 .navbtn {
@@ -46,7 +73,8 @@ nav ul li a {
 .header, .content {
   background-image: url(/Pics/fond.png);
   background-size: cover;
-    background-position: center;
+  background-position: center;
+  background-attachment: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
