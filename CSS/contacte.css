@@ -113,8 +113,9 @@
 /* Réseaux sociaux */
 .social-links {
   display: flex;
-  gap: 0.8rem;
-  margin-top: 0.5rem;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-left: 8rem;
 }
 
 .social-links a {
