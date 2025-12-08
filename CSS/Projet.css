@@ -149,11 +149,11 @@
 
 /* Images de fond pour chaque explication */
 #explications div:nth-child(1) { 
-  background-image: url("/Pics/correlation.png"); 
+  background-image: url("../Pics/correlation.png"); 
 }
 
 #explications div:nth-child(2) { 
-  background-image: url("/Pics/dpe.jpg"); 
+  background-image: url("../Pics/dpe.jpg"); 
 }
 
 .bordure {

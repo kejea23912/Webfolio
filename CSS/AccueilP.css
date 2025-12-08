@@ -71,7 +71,7 @@ nav ul li a {
 }
 
 .header, .content {
-  background-image: url(/Pics/fond.png);
+  background-image: url(../Pics/fond.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

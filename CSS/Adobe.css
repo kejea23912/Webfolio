@@ -53,19 +53,19 @@
 
 
 .card[for="c1"] {
-  background-image: url('/Pics/all1.jpeg');
+  background-image: url('../Pics/all1.jpeg');
 }
 
 .card[for="c2"] {
-  background-image: url('/Pics/all.jpeg');
+  background-image: url('../Pics/all.jpeg');
 }
 
 .card[for="c3"] {
-  background-image: url('/Pics/camp.png');
+  background-image: url('../Pics/camp.png');
 }
 
 .card[for="c4"] {
-  background-image: url('/Pics/finales.png');
+  background-image: url('../Pics/finales.png');
 }
 
 
