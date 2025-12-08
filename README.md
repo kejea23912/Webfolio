@@ -1,0 +1,37 @@
+# 🌐 Portfolio - Kenny
+
+Bienvenue sur mon portfolio personnel.  
+Ce site présente mon parcours, mes projets académiques et mes compétences en développement web.
+
+👨‍🎓 À propos
+
+Portfolio réalisé dans le cadre de mon Master à l’Université de Tours, mettant en valeur mes projets et mon parcours en développement web.
+<img width="2877" height="1467" alt="Screenshot 2025-12-07 213555" src="https://github.com/user-attachments/assets/61d87724-65ce-4c3c-aba2-23ed08dd6b8a" />
+
+
+## 🚀 Fonctionnalités
+
+- Animations fluides (CSS)
+- Galerie d’images interactive
+- Projets dynamiques avec effets au survol
+- Formulaire de contact
+
+## 🛠 Technologies
+
+- HTML
+- CSS (Flexbox, Grid, Media Queries)  
+- Font Awesome  
+- Git & GitHub
+- google font
+
+
+
+📞 Contact
+
+📧 Email : kenny.jean-elie@etu.univ-tours.fr
+
+📍 Localisation : Châtellerault, France
+
+💼 LinkedIn : https://www.linkedin.com/in/kenny-jean-elie-b84175304/
+
+
